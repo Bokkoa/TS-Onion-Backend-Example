@@ -8,7 +8,6 @@ dotenv.config({
     path: `${__dirname}/../config/${process.env.APP_ENV}.env`
 });
 
-
 import express = require('express');
 import loadContainer from './container';
 import { loadControllers } from 'awilix-express';
